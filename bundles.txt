@@ -1,0 +1,17 @@
+vim-airline-themes
+tabular
+lightline.vim
+vim-base16-lightline
+tlib_vim
+vim-puppet
+vim-addon-mw-utils
+syntastic
+ctrlp.vim
+vim-snipmate
+vim-gitgutter
+vim-airline
+nerdtree
+vim-flake8
+base16-vim
+vim-snippets
+vim-fugitive
