@@ -59,7 +59,7 @@ set selectmode=mouse
 execute pathogen#infect('bundle/{}')
 call pathogen#helptags()
 let snips_author="avuko"
-let snips_email="no-reply@avuko.net"
+let snips_email="iamavuko@gmail.com"
 let snips_github="http://github.com/avuko"
 let snips_organisation="avuko.net"
 
