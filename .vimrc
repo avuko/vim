@@ -186,9 +186,10 @@ augroup md
 "	autocmd BufEnter *.md,*.mkd,*.pdc set digraph "creates weird glyphs
 	autocmd BufEnter *.md,*.mkd,*.pdc set nohlsearch
 	autocmd BufEnter *.md,*.mkd,*.pdc set textwidth=72
+	autocmd BufEnter *.md,*.mkd,*.pdc set wrapmargin=0
 	autocmd BufEnter *.md,*.mkd,*.pdc set ts=4
 	autocmd BufEnter *.md,*.mkd,*.pdc set sw=4
-	autocmd BufEnter *.md,*.mkd,*.pdc set wrap
+	autocmd BufEnter *.md,*.mkd,*.pdc set nowrap
 	autocmd BufEnter *.md,*.mkd,*.pdc set list
 	autocmd BufEnter *.md,*.mkd,*.pdc set spell
 	autocmd BufEnter *.md,*.mkd,*.pdc set spelllang=en
