@@ -176,6 +176,14 @@ augroup tex
 	"autocmd BufEnter *.tex set formatoptions=croqtam
 augroup END
 
+" Special settings for Python
+augroup py
+	autocmd!
+	autocmd BufEnter *.py set expandtab
+	autocmd BufEnter *.py set tabstop=8
+	autocmd BufEnter *.py set shiftwidth=4
+	autocmd BufEnter *.py set softtabstop=4
+augroup END
 " Special settings for Markdown
 augroup md
 	autocmd!
@@ -185,7 +193,8 @@ augroup md
 	autocmd BufEnter *.md,*.mkd,*.pdc set nopaste
 "	autocmd BufEnter *.md,*.mkd,*.pdc set digraph "creates weird glyphs
 	autocmd BufEnter *.md,*.mkd,*.pdc set nohlsearch
-	autocmd BufEnter *.md,*.mkd,*.pdc set textwidth=72
+	autocmd BufEnter *.md,*.mkd,*.pdc set textwidth=90
+	autocmd BufEnter *.md,*.mkd,*.pdc set colorcolumn=90
 	autocmd BufEnter *.md,*.mkd,*.pdc set wrapmargin=0
 	autocmd BufEnter *.md,*.mkd,*.pdc set ts=4
 	autocmd BufEnter *.md,*.mkd,*.pdc set sw=4

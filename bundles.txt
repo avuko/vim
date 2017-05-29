@@ -1,17 +1,20 @@
-vim-airline-themes
-tabular
-lightline.vim
-vim-base16-lightline
-tlib_vim
-vim-puppet
-vim-addon-mw-utils
-syntastic
-ctrlp.vim
-vim-snipmate
-vim-gitgutter
-vim-airline
-nerdtree
-vim-flake8
-base16-vim
-vim-snippets
-vim-fugitive
+https://github.com/vim-airline/vim-airline-themes.git
+https://github.com/godlygeek/tabular.git
+https://github.com/itchyny/lightline.vim.git
+https://github.com/daviesjamie/vim-base16-lightline
+https://github.com/tomtom/tlib_vim.git
+https://github.com/rodjek/vim-puppet.git
+https://github.com/MarcWeber/vim-addon-mw-utils.git
+https://github.com/vim-syntastic/syntastic.git
+https://github.com/ctrlpvim/ctrlp.vim.git
+https://github.com/garbas/vim-snipmate.git
+https://github.com/airblade/vim-gitgutter.git
+https://github.com/vim-airline/vim-airline.git
+https://github.com/scrooloose/nerdtree.git
+https://github.com/nvie/vim-flake8.git
+https://github.com/chriskempson/base16-vim.git
+https://github.com/honza/vim-snippets.git
+https://github.com/tpope/vim-fugitive.git
+https://github.com/powerline/fonts.git
+# this one should go into ~/.vim/colors/ https://github.com/jnurmine/Zenburn.git 
+# this one should be installed with install.sh https://github.com/powerline/fonts.git
